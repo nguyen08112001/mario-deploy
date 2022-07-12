@@ -1,0 +1,301 @@
+{
+    "anims": [{
+            "key": "smallMarioWalk",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "mario",
+                "start": 0,
+                "end": 3
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "character",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "character",
+                "start": 0,
+                "end": 11
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "characteridle",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "characteridle",
+                "start": 0,
+                "end": 9
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "characterjump",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "characterjump",
+                "start": 0,
+                "end": 4
+            },
+            "repeat": 1,
+            "frameRate": 30
+        },
+        {
+            "key": "characterwalljump",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "characterwalljump",
+                "start": 0,
+                "end": 4
+            },
+            "repeat": 1,
+            "frameRate": 30
+        },
+        {
+            "key": "characterhit",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "characterhit",
+                "start": 0,
+                "end": 5
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "characterfall",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "characterfall",
+                "start": 0,
+                "end": 0
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "flaginit",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "flaginit",
+                "start": 0,
+                "end": 25
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "flagidle",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "flagidle",
+                "start": 0,
+                "end": 9
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "bigMarioWalk",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "mario",
+                "start": 6,
+                "end": 9
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "rotatingCoin",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "rotatingCoin",
+                "start": 0,
+                "end": 1
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "goombaWalk",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "goomba",
+                "start": 0,
+                "end": 1
+            },
+            "repeat": -1,
+            "frameRate": 9
+        },
+        {
+            "key": "platformOn",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "platformOn",
+                "start": 0,
+                "end": 3
+            },
+            "repeat": -1,
+            "frameRate": 20
+        },
+        {
+            "key": "testgoomba",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "testgoomba",
+                "start": 0,
+                "end": 9
+            },
+            "repeat": -1,
+            "frameRate": 9
+        },
+        {
+            "key": "plant",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "plant",
+                "start": 0,
+                "end": 10
+            },
+            "repeat": -1,
+            "frameRate": 9
+        },
+        {
+            "key": "plantBullet",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "plantBullet",
+                "start": 0,
+                "end": 0
+            },
+            "repeat": -1,
+            "frameRate": 9
+        },
+        {
+            "key": "bossBullet",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bossBullet",
+                "start": 0,
+                "end": 0
+            },
+            "repeat": -1,
+            "frameRate": 9
+        },
+        {
+            "key": "saw",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "saw",
+                "start": 0,
+                "end": 7
+            },
+            "repeat": -1,
+            "frameRate": 50
+        },
+        {
+            "key": "apple",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "apple",
+                "start": 0,
+                "end": 16
+            },
+            "repeat": -1,
+            "frameRate": 30
+        },
+        {
+            "key": "coin",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "coin",
+                "start": 0,
+                "end": 0
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+
+        {
+            "key": "boxhit",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "boxhit",
+                "start": 0,
+                "end": 1
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "mushroom",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "mushroom",
+                "start": 0,
+                "end": 13
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "bossHit",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bossHit",
+                "start": 0,
+                "end": 4
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "bossIdle",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bossIdle",
+                "start": 0,
+                "end": 17
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "bossRun",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bossRun",
+                "start": 0,
+                "end": 13
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "bossAttack",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bossAttack",
+                "start": 0,
+                "end": 10
+            },
+            "repeat": -1,
+            "frameRate": 18
+        },
+        {
+            "key": "flower",
+            "frames": {
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "flower",
+                "start": 0,
+                "end": 1
+            },
+            "repeat": -1,
+            "frameRate": 18
+        }
+    ]
+}

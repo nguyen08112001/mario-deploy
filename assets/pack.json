@@ -1,0 +1,385 @@
+{
+    "preload": {
+        "files": [{
+                "type": "bitmapFont",
+                "key": "font",
+                "textureURL": "./assets/font/superMarioLand.png",
+                "fontDataURL": "./assets/font/superMarioLand.fnt"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level1",
+                "url": "./assets/maps/level1.json"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level2",
+                "url": "./assets/maps/level2.json"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level3",
+                "url": "./assets/maps/level3.json"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level4",
+                "url": "./assets/maps/level4.json"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level1-1",
+                "url": "./assets/maps/level1-1.json"
+            },
+            {
+                "type": "image",
+                "key": "tiles",
+                "url": "./assets/tiles/mario.png"
+            },
+            {
+                "type": "image",
+                "key": "terrain",
+                "url": "./assets/sprites/Terrain/Terrain.png"
+            },
+            {
+                "type": "image",
+                "key": "dust",
+                "url": "./assets/sprites/Other/Dust.png"
+            },
+            {
+                "type": "image",
+                "key": "bg",
+                "url": "./assets/sprites/Background/Gray.png"
+            },
+            {
+                "type": "image",
+                "key": "startimg",
+                "url": "./assets/images/start.png"
+            },
+            {
+                "type": "json",
+                "key": "animationJSON",
+                "url": "./assets/animations/animations.json"
+            },
+            {
+                "type": "audio",
+                "key": "music",
+                "url": "./assets/sounds/music.mp3"
+            },
+            {
+                "type": "audio",
+                "key": "coin",
+                "url": "./assets/sounds/coin.mp3"
+            },
+            {
+                "type": "audio",
+                "key": "dead",
+                "url": "./assets/sounds/deadth.mp3"
+            },
+            {
+                "type": "audio",
+                "key": "grow",
+                "url": "./assets/sounds/grow.mp3"
+            },
+            {
+                "type": "audio",
+                "key": "jump",
+                "url": "./assets/sounds/jump.mp3"
+            },
+            {
+                "type": "audio",
+                "key": "shrink",
+                "url": "./assets/sounds/shrink.mp3"
+            },
+            {
+                "type": "spritesheet",
+                "key": "mario",
+                "url": "./assets/sprites/mario.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "flaginit",
+                "url": "./assets/sprites/Items/Checkpoints/Checkpoint/CheckpointInit.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "flagidle",
+                "url": "./assets/sprites/Items/Checkpoints/Checkpoint/CheckpointIdle.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "box",
+                "url": "./assets/sprites/Items/Boxes/box.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "bossHit",
+                "url": "./assets/sprites/Enemies/Trunk/Hit.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "bossIdle",
+                "url": "./assets/sprites/Enemies/Trunk/Idle.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "bossRun",
+                "url": "./assets/sprites/Enemies/Trunk/Run.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "bossAttack",
+                "url": "./assets/sprites/Enemies/Trunk/Attack.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "bossBullet",
+                "url": "./assets/sprites/Enemies/Trunk/Bullet.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "boxhit",
+                "url": "./assets/sprites/box.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "brick",
+                "url": "./assets/sprites/Items/Boxes/Box1/Idle.png",
+                "frameConfig": {
+                    "frameWidth": 28,
+                    "frameHeight": 24
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "character",
+                "url": "./assets/sprites/character.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "characterfall",
+                "url": "./assets/sprites/characterfall.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "characterjump",
+                "url": "./assets/sprites/characterjump.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "characterwalljump",
+                "url": "./assets/sprites/characterwalljump.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "characterhit",
+                "url": "./assets/sprites/characterhit.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "characteridle",
+                "url": "./assets/sprites/characteridle.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "rotatingCoin",
+                "url": "./assets/sprites/rotatingCoin.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "coin",
+                "url": "./assets/sprites/coin.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "goomba",
+                "url": "./assets/sprites/goomba.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "plant",
+                "url": "./assets/sprites/Enemies/Plant/Idle.png",
+                "frameConfig": {
+                    "frameWidth": 44,
+                    "frameHeight": 42
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "saw",
+                "url": "./assets/sprites/Traps/Saw/On.png",
+                "frameConfig": {
+                    "frameWidth": 38,
+                    "frameHeight": 38
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "testgoomba",
+                "url": "./assets/sprites/Enemies/Slime/Idle-Run.png",
+                "frameConfig": {
+                    "frameWidth": 44,
+                    "frameHeight": 30
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "apple",
+                "url": "./assets/sprites/Items/Fruits/Apple.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "image",
+                "key": "platform",
+                "url": "./assets/sprites/Traps/FallingPlatforms/Off.png"
+            },
+            {
+                "type": "image",
+                "key": "title",
+                "url": "./assets/images/title.png"
+            },
+            {
+                "type": "spritesheet",
+                "key": "coin2",
+                "url": "./assets/collectibles/coin2.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "platformOn",
+                "url": "./assets/sprites/Traps/FallingPlatforms/On.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 10
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "flower",
+                "url": "./assets/collectibles/flower.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "heart",
+                "url": "./assets/collectibles/heart.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "mushroom",
+                "url": "./assets/collectibles/mushroomIdle.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "plantBullet",
+                "url": "./assets/sprites/Enemies/Plant/Bullet.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16
+                }
+            },
+            {
+                "type": "spritesheet",
+                "key": "star",
+                "url": "./assets/collectibles/star.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8
+                }
+            }
+        ]
+    }
+}
